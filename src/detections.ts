@@ -4,6 +4,7 @@ function detectType(val: number | string){
         return val.toLowerCase()
     }
     return val + 3
+    
 }
 
 function provideId(id: string | null){
