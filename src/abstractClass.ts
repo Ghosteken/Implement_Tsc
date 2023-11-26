@@ -26,6 +26,7 @@ class Instagrams extends TakePhoto {
     }
     constructor(
         public cameramode: string,
+        
         public filter: string,
         public burst: number,
     ) {
